@@ -9,7 +9,7 @@ export type LocationsState = {
   error: string | null;
 };
 
-const locationsReducer = createReducer<LocationsState>(
+export const locationsReducer = createReducer<LocationsState>(
   {
     locations: [],
     favoriteLocations: [],
